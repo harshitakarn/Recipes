@@ -338,7 +338,7 @@ height: 310px;
     display: flex;
     align-items: center;
   }
-  .navheader{
+  .nav-header{
     height: auto;
     margin-right: 2rem;
    }
@@ -381,6 +381,7 @@ Footer
 */
 .page-footer{
   height: 4rem;
+  text-align: center;
   background:var(--black);
   color:var(--white);
   display: flex;
@@ -448,11 +449,13 @@ Recipes
   display: flex;
   flex-direction: column;
   padding-bottom: 3rem;
+  padding-left: 6rem;
 }
 .recipes-list { 
   display: grid;
   gap:2rem 1rem;
   padding-bottom: 3rem;
+
 }
 .tags-container h4 {
   margin-bottom: 0.5rem;
